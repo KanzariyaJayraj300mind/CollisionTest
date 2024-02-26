@@ -31,34 +31,34 @@ We have put the pairs of ActorA and ActorB  which are instance of same class.
 Case 1:
 
 Expected Output: 
-TestActor5.Body Cube hit by: TestActor6.Body Cube (A’s Body  => B’s Body)
-TestActor6.Body Cube hit by: TestActor5.Body Cube (B’s Body  => A’s Body)
+TestActor5.Body Cube hit by: TestActor6.Body Cube (A’s Body  => B’s Body) <br>
+TestActor6.Body Cube hit by: TestActor5.Body Cube (B’s Body  => A’s Body) <br>
 
 Current Output:
-TestActor5.Body Cube hit by: TestActor6.Body Cube (A’s Body  => B’s Body)
-TestActor6.Body Cube hit by: TestActor5.Body Cube (B’s Body  => A’s Body)
+TestActor5.Body Cube hit by: TestActor6.Body Cube (A’s Body  => B’s Body) <br>
+TestActor6.Body Cube hit by: TestActor5.Body Cube (B’s Body  => A’s Body) <br>
 
 
 Case 2:
 
 Expected Output: 
-TestActor2.Door_L Cube hit by: TestActor1.Door_L Cube (B’s LeftDoor => A’s LeftDoor)
-TestActor1.Door_L Cube hit by: TestActor2.Door_L Cube (A’s LeftDoor => B’s LeftDoor)
+TestActor2.Door_L Cube hit by: TestActor1.Door_L Cube (B’s LeftDoor => A’s LeftDoor) <br>
+TestActor1.Door_L Cube hit by: TestActor2.Door_L Cube (A’s LeftDoor => B’s LeftDoor) <br>
 
 Current Output:
-TestActor2.Door_L Cube hit by: TestActor1.Door_L Cube (B’s LeftDoor=> A’s LeftDoor)
-TestActor1.Door_L Cube hit by: TestActor2.Door_L Cube (A’s LeftDoor=> B’s LeftDoor)
+TestActor2.Door_L Cube hit by: TestActor1.Door_L Cube (B’s LeftDoor=> A’s LeftDoor) <br>
+TestActor1.Door_L Cube hit by: TestActor2.Door_L Cube (A’s LeftDoor=> B’s LeftDoor) <br>
 
 
 Case 3:
 
 Expected Output: 
-TestActor3.Door_L Cube hit by: TestActor4.Door_R Cube (A’s LeftDoor => B’s RightDoor)
-TestActor4.Door_R Cube hit by: TestActor3.Door_L Cube (B’s RightDoor => A’s LeftDoor)
+TestActor3.Door_L Cube hit by: TestActor4.Door_R Cube (A’s LeftDoor => B’s RightDoor) <br>
+TestActor4.Door_R Cube hit by: TestActor3.Door_L Cube (B’s RightDoor => A’s LeftDoor) <br>
 
 Current Output:
-TestActor3.Door_R Cube hit by: TestActor4.Door_L Cube (A’s RightDoor => B’s LeftDoor)
-TestActor4.Door_R Cube hit by: TestActor3.Door_L Cube (B’s RightDoor => A’s LeftDoor)
+TestActor3.Door_R Cube hit by: TestActor4.Door_L Cube (A’s RightDoor => B’s LeftDoor) <br>
+TestActor4.Door_R Cube hit by: TestActor3.Door_L Cube (B’s RightDoor => A’s LeftDoor) <br>
 
 
 
