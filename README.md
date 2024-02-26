@@ -16,7 +16,7 @@ Simulate physics false and generate hit event true.
 - We are testing the hit event received from Vehicle’s body component and Door Component
 On hit event(of body, leftdoor,rightdoor) we are printing string like below
 
-<Component’s name on which event is triggered> hit by <Other component from hit result>
+[Component’s name on which event is triggered] hit by [ Other component from hit result ]
 
  Here we have colored objects as follow to better identify the objects
 VehicleA body Orange
